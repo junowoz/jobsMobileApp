@@ -1,10 +1,18 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "name": "JobsMobileApp",
+    "slug": "jobsmobileapp",
+    "privacy": "public",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "description": "Projeto demo.",
+    "extra": {
+      "eas": {
+        "projectId": "e372c7f3-cae0-47e5-a18a-c6d9865e4a40"
+      }
     },
-    "name": "jobsMobileApp",
-    "slug": "jobsMobileApp"
+    "android": {
+      "package": "com.junowoz.jobsmobileapp"
+    }
   }
 }
